@@ -1,11 +1,11 @@
 # YOUR NAME OR TITLE OF YOUR SITE
-name: Harsh Trivedi
+name: Arcane Disgea
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: Howdy, I'm Harsh Trivedi. I'm a passionate Tech Lover from Kanpur, apart from that I'm a Graphic Designer and an OpenSource enthusiast Inspired by Imagination.
+tagline: Hello! I am Arc. I write bad code and play dumb games.
 
 # YOUR/BRAND IMAGE URL
-Image_URL: https://www.gravatar.com/avatar/0d73468bd0b0258eb61d9358352ecb7b?s=500
+Image_URL: https://en.gravatar.com/userimage/67214035/c4a2ac94743a27e06a4bdf395d262ff7.png?size=500
 
 # CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
 Cover_Image: https://source.unsplash.com/random
@@ -17,14 +17,14 @@ links:
     
     # FACEBOOK
   - Name: Facebook
-    URL: https://www.facebook.com
+    # URL: https://www.facebook.com
     Username: harsh98trivedi
     Color: '#3b5998'
     Icon-Class: fab fa-facebook
 
     # INSTAGRAM
   - Name: Instagram
-    URL: https://www.instagram.com
+    # URL: https://www.instagram.com
     Username: harsh98trivedi
     Color: '#DD2A7B'
     Icon-Class: fab fa-instagram
@@ -32,20 +32,20 @@ links:
     # TWITTER
   - Name: Twitter
     URL: https://twitter.com
-    Username: harsh98trivedi
+    Username: arcanedisgea
     Color: '#1DA1F2'
     Icon-Class: fab fa-twitter
 
     # CLUBHOUSE
   - Name: Clubhouse
-    URL: https://www.clubhouse.com
+    # URL: https://www.clubhouse.com
     Username: '@harsh98trivedi'
     Color: '#f1c40f'
     Icon-Class: fas fa-hand-paper -mt-0.5
     
     # LINKEDIN
   - Name: LinkedIn
-    URL: https://www.linkedin.com/in
+    # URL: https://www.linkedin.com/in
     Username: harsh98trivedi
     Color: '#2867B2'
     Icon-Class: fab fa-linkedin-in
@@ -53,20 +53,20 @@ links:
     # YOUTUBE
   - Name: YouTube
     URL: https://www.youtube.com/channel
-    Username: UCS3zvA_2r1iGT7MB3NVCGAw
+    Username: UCCNruXclRjoT1K0MuGhtE6A
     Color: '#ff0000'
     Icon-Class: fab fa-youtube
 
     # GITHUB
   - Name: GitHub
     URL: http://github.com
-    Username: harsh98trivedi
+    Username: arcanedisgea
     Color: '#6e5494'
     Icon-Class: fab fa-github
 
     # EMAIL
   - Name: Email
-    URL: 'mailto:harshtrivedi@duck.com'
+    # URL: 'mailto:harshtrivedi@duck.com'
     Icon-Class: fas fa-envelope
     Color: '#e17055'
     Text_Color: '#ffffff'
@@ -74,14 +74,22 @@ links:
     # TWITCH
   - Name: Twitch
     URL: 'https://twitch.tv'
-    Username: harsh98trivedi
+    Username: arcanedisgea
     Icon-Class: fab fa-twitch
     Color: '#9147fe'
     Text_Color: '#ffffff'
 
+    # Patreon
+  - Name: Patreon
+    URL: 'https://patreon.com'
+    Username: arcdis
+    Icon-Class: fab fa-patreon
+    Color: '#f96854'
+    Text_Color: '#ffffff'
+
     # VIMEO
   - Name: Vimeo
-    URL: 'https://vimeo.com'
+    # URL: 'https://vimeo.com'
     Username: harshtrivedi
     Icon-Class: fab fa-vimeo-v
     Color: '#1ab7ea'
@@ -89,14 +97,14 @@ links:
 
     # MESSENGER
   - Name: Messenger
-    URL: https://m.me
+    # URL: https://m.me
     Username: theharshtrivedi
     Color: '#006AFF'
     Icon-Class: fab fa-facebook-messenger
 
     # REDDIT
   - Name: Reddit
-    URL: http://reddit.com/u
+    # URL: http://reddit.com/u
     Username: harshtrivedi
     Color: '#FF4500'
     Icon-Class: fab fa-reddit-alien
@@ -110,14 +118,14 @@ links:
 
     # TELEGRAM
   - Name: Telegram
-    URL: http://telegram.me
+    # URL: http://telegram.me
     Username: theharshtrivedi
     Color: '#0088cc'
     Icon-Class: fab fa-telegram-plane
 
     # SNAPCHAT
   - Name: Snapchat
-    URL: https://www.snapchat.com/add
+    # URL: https://www.snapchat.com/add
     Username: 'harsh98trivedi'
     Color: '#FFFC00'
     Text_Color: '#000000'
@@ -133,14 +141,14 @@ links:
 
     # PINTEREST
   - Name: Pinterest
-    URL: https://pinterest.com
+    # URL: https://pinterest.com
     Username: 'harsh98trivedi'
     Color: '#E60023'
     Icon-Class: fab fa-pinterest
 
     # BEHANCE
   - Name: Behance
-    URL: https://www.behance.net
+    # URL: https://www.behance.net
     Username: harsh98trivedi
     Color: '#1769ff'
     Icon-Class: fab fa-behance
@@ -154,7 +162,7 @@ links:
 
     # DEVIANTART
   - Name: DeviantArt
-    URL: https://www.deviantart.com
+    # URL: https://www.deviantart.com
     Username: harshtrivedi
     Icon-Class: fab fa-deviantart
     Color: '#05CC46'
@@ -162,7 +170,7 @@ links:
 
     # FIGMA
   - Name: Figma
-    URL: https://www.figma.com
+    # URL: https://www.figma.com
     Username: '@harshtrivedi'
     Icon-Class: fab fa-figma
     Color: '#ff2865'
@@ -170,14 +178,14 @@ links:
 
     # SPOTIFY
   - Name: Spotify
-    URL: http://open.spotify.com/user
+    # URL: http://open.spotify.com/user
     Username: 314ihryk3edvtusti6il3oy3x5da
     Color: '#1DB954'
     Icon-Class: fab fa-spotify
 
     # SOUNDCLOUD
   - Name: SoundCloud
-    URL: https://www.soundcloud.com
+    # URL: https://www.soundcloud.com
     Username: harsh98trivedi
     Color: '#FE5000'
     Icon-Class: fab fa-soundcloud
@@ -191,7 +199,7 @@ links:
 
     # MEDIUM
   - Name: Medium
-    URL: 'https://medium.com'
+    # URL: 'https://medium.com'
     Username: '@harsh98trivedi'
     Icon-Class: fab fa-medium-m
     Color: '#00ab6c'
@@ -199,7 +207,7 @@ links:
 
     # DEV.TO
   - Name: Dev.to
-    URL: 'https://dev.to'
+    # URL: 'https://dev.to'
     Username: harsh98trivedi
     Icon-Class: fab fa-dev
     Color: '#ffffff'
@@ -214,7 +222,7 @@ links:
 
   # BUY ME A COFFEE
   - Name: BuyMeACoffee
-    URL: 'https://buymeacoffee.com'
+    # URL: 'https://buymeacoffee.com'
     Username: harshtrivedi
     Icon-Class: fas fa-mug-hot
     Color: '#FFDD00'
@@ -222,19 +230,19 @@ links:
 
     # CUSTOM LINK
   - Name: Blog
-    URL: https://harsh98trivedi.github.io/blog
+    # URL: https://harsh98trivedi.github.io/blog
     Icon-Class: fas fa-link
     Color: '#ffb142'
     Text_Color: '#ffffff'
 
   - Name: Links
-    URL: https://github.com/harsh98trivedi/links
+    # URL: https://github.com/harsh98trivedi/links
     Icon-Class: fas fa-link
     Color: '#d94869'
     Text_Color: '#ffffff'
 
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
-footer: 'Yes'
+footer: ''
 
 # STOP EDITING HERE ---------- YOU'VE REACHED THE END OF THE CONFIGURATION
 
