@@ -4,20 +4,30 @@
   "description": "A Beautiful Jekyll Theme For Links",
   "main": "postcss.config.js",
   "dependencies": {
-    "tailwindcss": "^2.2.4",
     "jekyll": "^3.0.0-beta1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "concurrently": "^7.2.2",
+    "cssnano": "^5.1.12",
     "jekyll": "^3.0.0-beta1",
     "nodemon": "^2.0.7",
-    "tailwindcss": "^2.2.4"
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.1.4"
   },
   "scripts": {
     "npm-jekyll-s": "bundle exec jekyll s -l -o",
     "npm-bundle-install": "bundle install && npm run npm-jekyll-s",
     "npm-install": "npm install && npm run npm-bundle-install",
     "npm-up": "nodemon --exec npm run npm-install",
-    "start": "npm run npm-up"
+    "start": "npm run npm-up",
+    "jekyll:dev": "bundle exec jekyll serve --incremental --watch",
+    "jekyll:build": "JEKYLL_ENV=production bundle exec jekyll build",
+    "css:dev": "postcss assets/css/main.scss --output assets/css/main.css --watch",
+    "css:build": "NODE_ENV=production postcss assets/css/main.scss --output assets/css/main.css",
+    "dev": "concurrently --kill-others \"npm run jekyll:dev\" \"npm run css:dev\"",
+    "build": "npm run css:build && npm run jekyll:build"
   },
   "keywords": [
     "links",
