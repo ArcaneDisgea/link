@@ -36,6 +36,13 @@ links:
     Color: '#1DA1F2'
     Icon-Class: fab fa-twitter
 
+    # Mastodon
+  - Name: Mastodon
+    URL: https://dogno.se
+    Username: "@arc"
+    Color: '#563ACC'
+    Icon-Class: fab fa-mastodon
+
     # CLUBHOUSE
   - Name: Clubhouse
     # URL: https://www.clubhouse.com
@@ -133,7 +140,7 @@ links:
 
     # STEAM
   - Name: Steam
-    URL: https://steamcommunity.com/id
+    # URL: https://steamcommunity.com/id
     Username: 'harshtrivedi'
     Color: '#66c0f4'
     Text_Color: '#000000'
